@@ -1,4 +1,8 @@
 .sponsorlist {
+    background: #001e40;
+    padding: 3vw;
+    border-radius: 15px;
+    z-index: 1;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,6 +13,16 @@
 
 .sponsorlist>* {
     flex: 1 1 24%;
+}
+
+.sponsor:hover {
+    opacity: 0.6;
+}
+
+.sponsor-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .sponsorpic {
