@@ -1,0 +1,50 @@
+.eng-project-container {
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 300ms ease-in-out;
+    border-radius: 2%;
+}
+
+.eng-project-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 250px;
+}
+
+.eng-project-content {
+    color: white;
+    margin: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.eng-project-title {
+    margin-bottom: 0.6rem;
+}
+
+.eng-project-body {
+    margin-bottom: 0.2rem !important;
+}
+
+.eng-project-btn {
+    display: flex;
+    justify-content: right;
+}
+
+.eng-project-btn button {
+    padding: 0.5rem;
+    background: transparent;
+    color: white;
+    border: none;
+    transition: 200ms ease-in-out;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+.eng-project-btn button:hover {
+    background-color: #83a0df;
+}

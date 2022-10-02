@@ -1,0 +1,126 @@
+.logo_style {
+    position: absolute;
+    width: 13%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.logo_style:hover {
+    opacity: 0.8;
+    transition: 300ms ease;
+}
+
+#copytext.copy {
+    text-align: center;
+    font-size: 12px;
+    color: white !important;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.title {
+    padding: 3%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 1%;
+    margin: auto;
+    width: 50%;
+    height: 35%;
+    padding: 1%;
+    text-align: start;
+}
+
+.pgraph_about {
+    color: #000 !important;
+    line-height: 1.5rem;
+    text-align: start !important;
+    width: 100% !important;
+}
+
+.link {
+    color: #2f4e92;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    color: #2f4e92;
+}
+
+.btn-placement {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sbtn {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 14px;
+    margin-right: 2%;
+    background-color: #2f4e92;
+    border-color: transparent;
+    border-radius: 7px;
+    box-shadow: 0px 0px 8px #2f4e92;
+    margin-bottom: 1%;
+}
+
+.sbtn:hover {
+    background-color: #83a0df;
+    transition: 0.3s ease;
+}
+
+.cards {
+    padding: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-style {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-style {
+        padding-top: 2vh;
+        margin: auto;
+    }
+
+    .box {
+        padding: 1rem;
+        width: 90%;
+        height: 60%;
+    }
+
+    .footer-display {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .logo_style {
+        width: 0px;
+        height: 0px;
+    }
+}

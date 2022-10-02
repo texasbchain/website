@@ -1,0 +1,58 @@
+.title {
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 3.5vw;
+}
+
+.sideimg {
+    height: 24vw !important;
+    display: flex !important;
+}
+
+.inv-blurb {}
+
+.title-style {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-info-fin {
+    text-align: center;
+    justify-content: center !important;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .sideimg {
+        width: 0vw;
+    }
+
+    .inv-blurb {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20vh !important;
+    }
+
+    .fin-main-intro {
+        width: 85vw !important;
+    }
+
+    .inv-pgraph {
+        width: 95vw !important;
+        padding-left: 0vw !important;
+        padding-right: 0vw !important;
+    }
+
+    .fin-sub {
+        margin-top: 30vh !important;
+    }
+}

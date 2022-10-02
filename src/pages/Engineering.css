@@ -1,0 +1,117 @@
+.eng {
+    overflow-x: visible;
+}
+
+.title {
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 3.5vw;
+}
+
+.title-style {
+    display: flex;
+    flex-direction: row;
+}
+
+.pgraph-eng-container {
+    border-radius: 20vw;
+    padding: 2rem;
+    width: 40vw;
+}
+
+.eng-projs-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 10vw;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.carousel_sizing {
+    width: 55vw;
+    height: 45vw;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.pgraph-eng {
+    color: #fff !important;
+    font-size: medium;
+    text-align: center;
+}
+
+.subtitle-eng {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+.subtitle-eng-not {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8vh;
+}
+
+.timeline-display {
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 18vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-style {
+        padding-top: 2vw;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .main-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10vw;
+    }
+
+    .pgraph-eng-container {
+        width: 90vw;
+    }
+
+    .eng-projs-display {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .eng-proj-display {
+        padding-top: 2vw;
+        margin: auto;
+    }
+
+    .carousel_sizing {
+        width: 90vw;
+        height: 90vw;
+        margin-bottom: 6vh;
+    }
+
+    .subtitle-eng-not {
+        margin-top: 30vh;
+    }
+}

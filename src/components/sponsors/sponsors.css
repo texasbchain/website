@@ -1,0 +1,17 @@
+.sponsorlist {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 18%;
+}
+
+.sponsorlist>* {
+    flex: 1 1 24%;
+}
+
+.sponsorpic {
+    height: auto;
+    max-width: 75%;
+}
