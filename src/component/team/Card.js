@@ -3,8 +3,14 @@ import './Card.css'
 import ProfilePic from '../../resources/placeholder.png'
 import { FaTwitter, FaInstagram, FaLinkedin} from "react-icons/fa";
 import { BiMailSend} from "react-icons/bi"
+import { View, Text, Image, Linking } from 'react-native';
 
 const Card = ({name,job,about,twitterLink,instaLink,linkedLink,email,image}) => {
+    
+    const openMail = (e) => {
+        e.preventDefault();
+        Linking.openURL('mailto:' + email)
+    }
 
   return (
     <div className='Card'>
@@ -21,7 +27,7 @@ const Card = ({name,job,about,twitterLink,instaLink,linkedLink,email,image}) => 
                 <a className="icon" href={twitterLink}><FaTwitter/></a>
                 <a className="icon" href={instaLink}><FaInstagram/></a>
                 <a className="icon" href={linkedLink}><FaLinkedin/></a>
-                <a className="icon" href={email}><BiMailSend/></a>
+                <a className="icon" onClick={openMail}><BiMailSend/></a>
             </div>
 
         </div>

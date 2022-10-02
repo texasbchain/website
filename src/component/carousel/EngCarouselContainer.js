@@ -3,6 +3,8 @@ import { Carousel } from 'react-bootstrap';
 
 import image1 from '../../resources/image1.jpg';
 import image2 from '../../resources/image2.jpg';
+import near_hackathon_1 from '../../resources/near_hackathon_1.png'
+import near_hackathon_2 from '../../resources/near_hackathon_2.png'
 
 const EngCarouselContainer = () => {
     return (
@@ -15,12 +17,12 @@ const EngCarouselContainer = () => {
                     height: "400px",
                 }}
                     className="d-block w-100"
-                    src={image1}
+                    src={near_hackathon_1}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>First Texas Blockchain Hackathon</h3>
+                    <p>Contestants working to finish their MVPs</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={10000}>
@@ -30,12 +32,12 @@ const EngCarouselContainer = () => {
                     height: "400px",
                 }}
                     className="d-block w-100"
-                    src={image2}
+                    src={near_hackathon_2}
                     alt="Second slide"
                 />
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>First Texas Blockchain Hackathon</h3>
+                    <p>Here's some of the team that helped put it all together.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

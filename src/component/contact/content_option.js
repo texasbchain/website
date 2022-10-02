@@ -1,5 +1,5 @@
 const contactConfig = {
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    description: 'Whether a sponsor, community member, faculty, alumni, or other, we’d love to hear from you. Please email the specific division you’d like to get in touch with.',
 };
 
 export {

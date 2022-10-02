@@ -14,6 +14,7 @@
 .img-container {
     overflow: hidden;
     height: 250px;
+    background-color: white;
 }
 
 .eng-project-content {
