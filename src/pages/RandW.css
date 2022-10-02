@@ -65,8 +65,9 @@
 }
 
 .featured-posts-container {
-    height: 200vh;
+    height: fit-content;
     display: flex;
+    gap: 3rem;
     flex-direction: column;
     justify-content: space-evenly;
 }

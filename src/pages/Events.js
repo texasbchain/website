@@ -8,7 +8,6 @@ import Event from '../resources/event.png'
 function Events() {
   return (
     <div>
-      Events
       <div className="title-style">
         <h1 className="title">Calendar</h1>
       </div>

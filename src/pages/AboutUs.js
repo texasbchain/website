@@ -76,7 +76,6 @@ function AboutUs() {
 export default AboutUs;
 
 
-
 // import React, { Component, useState } from 'react';
 // import { View, Text, Image } from 'react-native';
 // import "./AboutUs.css";

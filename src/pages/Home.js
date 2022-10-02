@@ -8,8 +8,8 @@ function Home() {
   return (
     <div>
       <Head />
-      <Mission />
-      <EventText />
+      <Mission/>
+      <EventText/>
       <LanCarouselContainer />
       <About />
       <Sponsors />
